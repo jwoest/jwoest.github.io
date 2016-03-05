@@ -10,7 +10,7 @@ tags:
 Github allows you to create a website for your account.  By creating a repo named '*username*.github.io', github will serve up the content in the repo at http://username.github.io.  You can create your own static content, but Github also integrates [Jekyll](http://jekyllrb.com) to create content from markdown files.
 
 
-##Local Jekyll
+## Local Jekyll
 You can set up a Github Pages site directly from the Github site, and manage your blog configuration and create your blog posts from there.  However, I chose to install Jekyll on my local system so that I can test out configuration changes and view new posts before they go live to the world.
 
 Github provides the ['github-pages' ruby gem](https://github.com/github/pages-gem) that will replicate the Github Pages environment locally.  To make this work on my Mac (OS X 10.11), I needed:
@@ -36,7 +36,7 @@ export PATH=$PATH:~/.gem/ruby/2.0.0/bin
 ~~~
 
 
-##Choosing and testing the blog theme
+## Choosing and testing the blog theme
 To make your blog pleasant to look at, there are lots of free pre-made Jekyll themes available.  A few theme sites that I looked at were:
 
 <https://github.com/jekyll/jekyll/wiki/Themes>\\
@@ -70,7 +70,7 @@ $ jekyll serve
 Pointing my browser at http://localhost:4000 showed the default site for the logam theme.
 
 
-##Making it mine
+## Making it mine
 Customizing the blog theme as my own meant modifying several files.
 
 - logo.png
@@ -94,7 +94,7 @@ Customizing the blog theme as my own meant modifying several files.
 Then I restarted 'jekyll serve' and confirmed my changes by viewing the local website.
 
 
-##Going live
+## Going live
 Once I was satisfied with the way my site looked, I commited the changes and pushed them up to github
 
 ~~~ shell
